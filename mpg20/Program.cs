@@ -6,7 +6,9 @@ namespace mpg20
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Miles per gallon");
+            double mpg = 500 / 27.0;
+            Console.WriteLine("you got " + mpg + " mpg.");
         }
     }
 }
